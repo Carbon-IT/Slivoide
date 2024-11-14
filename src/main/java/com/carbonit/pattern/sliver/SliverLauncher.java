@@ -1,7 +1,5 @@
 package com.carbonit.pattern.sliver;
 
-import com.carbonit.pattern.sliver.factories.SliverFactory;
-import com.carbonit.pattern.sliver.model.Sliver;
 import com.carbonit.pattern.sliver.model.SliverPower;
 import com.carbonit.pattern.sliver.services.BattlefieldService;
 import lombok.AllArgsConstructor;
@@ -15,7 +13,6 @@ import java.util.List;
 @AllArgsConstructor
 public class SliverLauncher implements CommandLineRunner {
 
-    private final SliverFactory sliverFactory;
     private final BattlefieldService battlefieldService;
 
 
